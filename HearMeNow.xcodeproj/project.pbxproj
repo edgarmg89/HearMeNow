@@ -14,6 +14,7 @@
 		792D5CD91B321BB900B144EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792D5CD81B321BB900B144EF /* Images.xcassets */; };
 		792D5CDC1B321BB900B144EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792D5CDA1B321BB900B144EF /* LaunchScreen.xib */; };
 		792D5CE81B321BB900B144EF /* HearMeNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D5CE71B321BB900B144EF /* HearMeNowTests.m */; };
+		792D5CF21B321C5A00B144EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792D5CF11B321C5A00B144EF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		792D5CE11B321BB900B144EF /* HearMeNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792D5CE61B321BB900B144EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792D5CE71B321BB900B144EF /* HearMeNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HearMeNowTests.m; sourceTree = "<group>"; };
+		792D5CF11B321C5A00B144EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792D5CF21B321C5A00B144EF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		792D5CBF1B321BB900B144EF = {
 			isa = PBXGroup;
 			children = (
+				792D5CF11B321C5A00B144EF /* AVFoundation.framework */,
 				792D5CCA1B321BB900B144EF /* HearMeNow */,
 				792D5CE41B321BB900B144EF /* HearMeNowTests */,
 				792D5CC91B321BB900B144EF /* Products */,
